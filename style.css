@@ -1,4 +1,97 @@
- .image {
-    width: 300px;
-    height: auto;
- }
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.hero img {
+    max-width: 500px;
+}
+
+.hero .content {
+    max-width: 500px;
+    padding: 10px;
+}
+
+.information {
+    text-align: center;
+}
+
+.information .title {
+    padding: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.container img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.quotes {
+    padding: 52px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.quotes .thor {
+    text-align: end;
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+}
+
+.blue-box {
+    margin: 36px auto;
+    display: flex;
+    gap: 200px;
+}
+
+.blue-box .button {
+    align-self: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
