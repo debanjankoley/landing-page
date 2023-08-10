@@ -1,12 +1,22 @@
 body {
-    display: flex;
-    flex-direction: column;
+    font-family: roboto, sans-serif;
+    margin: 0px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 45px;
+    background-color: #1F2937;
+    padding: 5px 175px 0;
+    border: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 ul {
@@ -20,78 +30,144 @@ li {
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 .hero {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
+    padding: 100px 170px;
+    gap: 100px;
+    background-color: #1F2937;
 }
 
 .hero img {
-    max-width: 500px;
+    width: 485px;
 }
 
-.hero .content {
-    max-width: 500px;
-    padding: 10px;
+.primary {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button-1 {
+    padding-top: 10px;
+}
+
+.button-1 button {
+    border: 2px solid #3882F6;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 6px 30px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .information {
     text-align: center;
+    height: 500px;
 }
 
 .information .title {
-    padding: 32px;
+    padding: 45px ;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
 
 .container {
     display: flex;
     justify-content: center;
-    gap: 52px;
+    gap: 41px;
 }
 
-.container img {
-    max-width: 100px;
-    max-height: 100px;
+.container .info img {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882F6;
+    padding: 2px;
+    border-radius: 15px;
 }
 
 .info {
-    max-width: 200px;
+    width: 172px;
 }
 
-.quotes {
-    padding: 52px;
-    max-width: 1000px;
-    margin: 0 auto;
+.info .text {
+    color: #1F2937;
+}
+
+.quote-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 400px;
+    padding: 0 300px;
+}
+
+.thor-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
 }
 
 .quotes .thor {
     text-align: end;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .sign {
     display: flex;
+    height: 350px;
     justify-content: center;
+    align-items: center;
 }
 
 .blue-box {
     margin: 36px auto;
     display: flex;
-    gap: 200px;
+    align-items: center;
+    gap: 190px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 50px 110px;
+    border-radius: 10px;
 }
 
-.blue-box .button {
-    align-self: center;
+.blue-head {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.blue-head-2 {
+    font-size: 18px;
+}
+
+.button-2 button {
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 6px 35px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 52px;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
