@@ -45,6 +45,11 @@ a {
     width: 485px;
 }
 
+.hero .credit {
+    text-align: center;
+    color: #F9FAF8;
+}
+
 .primary {
     font-size: 48px;
     font-weight: 800;
